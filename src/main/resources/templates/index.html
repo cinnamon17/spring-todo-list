@@ -103,12 +103,16 @@
 	<div class="container">
 		<h1>Todo List</h1>
 		<div class="add-todo">
-			<input type="text" placeholder="Add new todo">
-			<button>Add</button>
+            <form th:action="@{/home}" th:method="post">
+			    <input type="text" placeholder="Add new todo" name="todo">
+			    <button>Add</button>
+            </form>
+
 		</div>
 		<ul class="todo-list">
-			<li class="todo-item">Go to the gym<button>Complete</button></li>
-			<li class="todo-item">Buy groceries<button>Complete</button></li>
-        </ul>
-    </div>
-</body/>
+            <form th:action="@{/home/delete}" th:method="post" th:each="item : ${list}">
+            <li class="todo-item"><span th:text="${item.message}"></span><input type="hidden" name="itemId" th:value="${item.id}"><button>Complete</button></li>
+            </form>
+        <ul>
+
+</body>

@@ -1,85 +1,42 @@
 # Gradle files
 .gradle/
 build/
-.gradle.kts/
+out/
 buildSrc/
 
-# IntelliJ IDEA files
+# IDE files
 .idea/
 *.iml
 *.ipr
 *.iws
-.idea_modules/
-out/
-gen/
-.idea-workspace.xml
-
-# Eclipse files
-*.classpath
-*.project
-.settings/
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-.recommenders
-
-# Mac files
-.DS_Store
-AppleDouble
-Icon
-ehthumbs.db
-Thumbs.db
-
-# Maven files
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
-!/.mvn/wrapper/maven-wrapper.properties
-
-# Gradle Wrapper
-/gradle/wrapper/gradle-wrapper.jar
-/gradle/wrapper/gradle-wrapper.properties
+.vscode/
 
 # Log files
-logs/
 *.log
 
-# Compiled class file
-*.class
+# Compiled class files
+bin/
+build/
+classes/
+target/
 
-# Package files
-*.jar
-*.war
-*.ear
+# Dependency directories
+/.gradle/
+/.idea/libraries/
+/.m2/
 
-# Other
-/.classpath
-/.project
-/.settings/
-*.swp
-*.bak
-*.cache
-*.tmp
-*.sublime-project
-*.sublime-workspace
-.project
-.settings/
-.classpath
-.externalToolBuilders/
-*.launch
-.cproject
-*.properties
+# OS-generated files
+.DS_Store
+Thumbs.db
 
+# Spring Boot specific files
+.springBeans
+.springLoaded
+.spring_boot_devtools/
+/bin/
+/gradle/
+/mvn/
+/gradle.properties
+/mvnw
+/mvnw.cmd
+local.application.properties
