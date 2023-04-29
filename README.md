@@ -23,6 +23,17 @@ The application provides a simple and user-friendly interface, making it easy fo
 git clone git@github.com:cinnamon17/spring-todo-list.git
 cd spring-todo-list
 ```
+## Configuration
+
+Create your local configuration file beside application.properties
+
+> local.application.properties
+```
+spring.datasource.url=jdbc:mysql://localhost/{yourDatabaseName}
+spring.datasource.username={your-database-username}
+spring.datasource.password={your-database-password}
+```
+
 
 ## Runing the application
 
