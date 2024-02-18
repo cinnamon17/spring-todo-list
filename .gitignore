@@ -10,6 +10,7 @@ buildSrc/
 *.ipr
 *.iws
 .vscode/
+.settings/
 
 # Log files
 *.log
