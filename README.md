@@ -25,6 +25,10 @@ cd spring-todo-list
 ```
 ## Configuration
 
+By default is using in memory Database, further configuration is not needed.
+
+if you want to link database follow the next steps:
+
 Create your local configuration file beside application.properties
 
 > local.application.properties
